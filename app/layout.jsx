@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "My AI-chat",
+  title: "Misty AI",
   description: "Created by Kulli",
 };
 
