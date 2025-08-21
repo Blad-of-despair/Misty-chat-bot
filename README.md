@@ -1,35 +1,91 @@
-This is a [Next.js](project ) based AI-Chat model name misty
-## Getting Started
+🌟 Misty AI Chatbot
 
-First, run the development server:
+An interactive AI-powered chatbot built with React.js, Node.js, and Express, integrated with a Large Language Model (LLM) API to deliver real-time, human-like conversations.
+Deployed live on Netlify: 👉 Try Misty Here
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+💬 Real-time conversational AI powered by [Gemini/OpenAI API – update if needed].
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+⚡ Responsive UI built in React.js for smooth chat interactions.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔒 Secure backend with Node.js + Express for handling API requests.
 
-## Learn More
+🎨 Clean, minimal interface for seamless user experience.
 
-To learn more about Next.js, take a look at the following resources:
+🌐 Deployed on Netlify for instant access without setup.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Frontend: React.js, Tailwind CSS (if used)
+Backend: Node.js, Express.js
+AI Integration: Gemini / OpenAI API (update accordingly)
+Deployment: Netlify (frontend), [add backend host if different: Render / Railway / Vercel]
 
-## Deploy on Vercel
+📸 Screenshots
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img width="1917" height="843" alt="image" src="https://github.com/user-attachments/assets/863fff3c-4989-4fcf-8cf3-4de2adb38d62" />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Example:
+
+![Misty Chatbot Screenshot](./screenshots/misty-demo.png)
+
+🔗 Live Demo
+
+👉 Misty AI Chatbot on Netlify
+
+⚙️ Installation & Setup
+
+Clone the repository
+
+git clone https://github.com/Blad-of-despair/Misty-chat-bot.git
+cd Misty-chat-bot
+
+
+Install dependencies
+
+npm install
+
+
+Set up environment variables
+Create a .env file in the backend folder with your API key:
+
+API_KEY=your_api_key_here
+
+
+Run the development server
+
+npm start
+
+
+Open http://localhost:3000
+ in your browser.
+
+📚 How It Works
+
+User enters a message in the chat box.
+
+The frontend sends the request to the Node.js backend.
+
+Backend communicates with the AI API (Gemini/OpenAI) to generate a response.
+
+Misty displays the AI’s reply in real time.
+
+🚧 Challenges Solved
+
+Managing async API requests for smooth conversations.
+
+Handling rate limits and error states gracefully.
+
+Maintaining chat flow state on the frontend for a natural user experience.
+
+🤝 Contributing
+
+Pull requests are welcome! If you’d like to improve Misty, fork the repo and submit a PR.
+
+📜 License
+
+This project is licensed under the MIT License – free to use and modify.
+
+⚡ Pro Tip: Add a GIF demo (record your screen using Loom or OBS, convert to GIF with ezgif.com) — recruiters love seeing the chatbot in action without needing to click anything.
