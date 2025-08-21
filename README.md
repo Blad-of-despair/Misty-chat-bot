@@ -1,7 +1,7 @@
 🌟 Misty AI Chatbot
 
 An interactive AI-powered chatbot built with React.js, Node.js, and Express, integrated with a Large Language Model (LLM) API to deliver real-time, human-like conversations.
-Deployed live on Netlify: 👉 Try Misty Here
+Deployed live on Netlify: 👉 Try Misty [Here](https://mistybot.netlify.app/)
 
 🚀 Features
 
