@@ -27,9 +27,7 @@ Deployment: Netlify (frontend), [add backend host if different: Render / Railway
 <img width="1917" height="843" alt="image" src="https://github.com/user-attachments/assets/863fff3c-4989-4fcf-8cf3-4de2adb38d62" />
 
 
-Example:
 
-![Misty Chatbot Screenshot](./screenshots/misty-demo.png)
 
 🔗 Live Demo
 
@@ -83,9 +81,3 @@ Maintaining chat flow state on the frontend for a natural user experience.
 🤝 Contributing
 
 Pull requests are welcome! If you’d like to improve Misty, fork the repo and submit a PR.
-
-📜 License
-
-This project is licensed under the MIT License – free to use and modify.
-
-⚡ Pro Tip: Add a GIF demo (record your screen using Loom or OBS, convert to GIF with ezgif.com) — recruiters love seeing the chatbot in action without needing to click anything.
